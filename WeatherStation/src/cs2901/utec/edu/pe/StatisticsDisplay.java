@@ -2,12 +2,12 @@ package cs2901.utec.edu.pe;
 
 public class StatisticsDisplay implements Observer {
 
-    @Override
-    public void update() {
+    public void display(){
 
     }
 
-    public void display(){
+    @Override
+    public void update(int temperature, int humidity, int pressure) {
 
     }
 }
